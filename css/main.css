@@ -311,6 +311,12 @@ body {
 .article a {
   font-size: 14px;
 }
+.article__tie-name {
+  font-size: 14px;
+  font-weight: normal;
+  color: #45916b;
+  margin: 0;
+}
 .img-set {
   zoom: 1;
 }
@@ -351,4 +357,44 @@ body {
 }
 .img-set__thumb {
   width: 100%;
+}
+.gallery {
+  width: 720px;
+  margin: 0 auto;
+}
+.gallery__list {
+  zoom: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gallery__list:before,
+.gallery__list:after {
+  content: "";
+  display: table;
+}
+.gallery__list:after {
+  clear: both;
+}
+.gallery__item {
+  float: left;
+  width: 25%;
+  height: 120px;
+  overflow: hidden;
+}
+.gallery__thumb {
+  width: 100%;
+}
+.gallery__link {
+  display: inline-block;
+  -webkit-transition: opacity 0.3s;
+  -moz-transition: opacity 0.3s;
+  -o-transition: opacity 0.3s;
+  -ms-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+.gallery__link:hover {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
 }
