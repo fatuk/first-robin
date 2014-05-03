@@ -97,6 +97,33 @@ body {
 .container_margin-bottom {
   margin-bottom: 30px;
 }
+.order-form {
+  width: 720px;
+  margin: 0 auto;
+}
+.order-form__header {
+  margin-bottom: 30px;
+}
+.order-form__title {
+  font-size: 18px;
+  margin: 0;
+}
+.order-form__subtitle {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
+  margin-top: 10px;
+  position: relative;
+}
+.order-form__tie-id {
+  color: #45916b;
+}
+.order-form .fa {
+  position: absolute;
+  left: -25px;
+  top: 5px;
+  color: #45916b;
+}
 .site-header {
   text-align: center;
 }
