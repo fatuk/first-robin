@@ -10838,4 +10838,18 @@ d[0].offsetTop||15===d[0].offsetTop;d.remove();a.fixedPosition=e}f.extend(b.defa
     $(".ocarousel").each(function(index, el) {
         return new Ocarousel(this);
     });
+
+    $('.fancybox').on('click', function(event) {
+        event.preventDefault();
+    });
+
+    $('.fancybox').fancybox({
+        openEffect: 'elastic',
+        closeEffect: 'elastic',
+        helpers: {
+            title: {
+                type: 'inside'
+            }
+        }
+    });
 });

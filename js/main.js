@@ -2,5 +2,18 @@ $(function() {
     $(".ocarousel").each(function(index, el) {
         return new Ocarousel(this);
     });
-    console.log(234234324);
+
+    $('.fancybox').on('click', function(event) {
+        event.preventDefault();
+    });
+
+    $('.fancybox').fancybox({
+        openEffect: 'elastic',
+        closeEffect: 'elastic',
+        helpers: {
+            title: {
+                type: 'inside'
+            }
+        }
+    });
 });

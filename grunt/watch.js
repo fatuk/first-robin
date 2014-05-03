@@ -17,7 +17,7 @@ module.exports = {
         files: '*.html'
     },
     js: {
-        files: ['js/*.js', '!scripts.js'],
+        files: ['js/*.js'],
         tasks: ['concat']
     },
     plugins: {
