@@ -1,0 +1,29 @@
+html, body
+    height 100%
+
+body
+    background url('../img/tile.jpg')
+    margin 0
+    padding 0
+    font-family 'Roboto', sans-serif
+
+a
+    color #000
+    text-decoration none
+    font-size 14px
+    font-weight bold
+    transition color .3s
+    &:hover
+        color #45916B
+    &:active
+        color darken(#45916B, 10%)
+
+sticky-footer(100px)
+
+.container
+    width 940px
+    margin 0 auto
+    background #fff
+    box-shadow 0px 0px 30px rgba(0,0,0,0.5)
+    &_margin-bottom
+        margin-bottom 30px

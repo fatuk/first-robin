@@ -1,0 +1,37 @@
+.slider
+    width 720px
+    margin 0 auto
+    padding 20px
+    margin-bottom 30px
+    background url('../img/slider-bg.png') no-repeat
+    background-size 100% 100%
+    &__i
+        height 360px
+    &__item
+        position relative
+        a
+            resize 14px
+            color #fff
+            &:hover
+                color lighten(#45916b, 20%)
+            &:active
+                color #45916b
+    &__figure
+        position absolute
+        bottom 20px
+        left 20px
+        padding 20px
+        background rgba(0,0,0,.4)
+        color: #fff
+        max-width 480px
+    &__item-title
+        margin 0
+        font-size 18px
+        text-shadow 1px 1px 0 #000
+    &__item-text
+        font-size 14px
+        text-shadow 1px 1px 0 #000
+        margin 0
+    .ocarousel_indicators
+        svg
+            padding-right 10px
